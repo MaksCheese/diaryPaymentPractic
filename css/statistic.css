@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: -webkit-linear-gradient(90deg, #6da762,#7ec79b,#a7e1cf);
+    background: linear-gradient(90deg, #80a977,#7ec79b,#a7e1cf);
+    font-weight: 600;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex:1 0 auto;
+    /* align-items: center; */
+    /* margin-top: 30px; */
+    margin-left: 20%;
+}
